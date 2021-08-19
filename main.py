@@ -1,4 +1,5 @@
 import time
+import telegram_send
 from plyer import notification
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
@@ -60,6 +61,7 @@ def main():
         cntvor1 = termin("Düsseldorf")
         if cntvor1>cntnach1:
             notification.notify(title = "Neue Theoriestunden!", message = "Neue Theoriestunden in Düsseldorf")
+            telegram_send.send(messages=["Neue Theoriestunden in Düsseldorf!"])
         cntnach1 = cntvor1
 
         wait()
