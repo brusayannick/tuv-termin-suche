@@ -7,6 +7,7 @@ from selenium.webdriver.common.keys import Keys
 def termin(gebiet):
     option=webdriver.ChromeOptions()
     option.add_argument('headless')
+    option.add_argument('incognito')
     driver = webdriver.Chrome(executable_path=r"C:\Users\yanni\OneDrive\Code\Projects\Python\Selenium\chromedriver.exe", chrome_options=option)
     driver.set_window_size(1920, 1080)
 
