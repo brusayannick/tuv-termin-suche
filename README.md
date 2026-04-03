@@ -1,4 +1,5 @@
 # tuv-termin-suche
+!!!Funktioniert nicht mehr!!!
 Schickt eine lokale Desktop-Benachrichtigung, wenn ein neuer Termin für eine Theorieprüfung beim TÜV-Rheinland vorhanden ist.
 
 Externe Pakete: 
